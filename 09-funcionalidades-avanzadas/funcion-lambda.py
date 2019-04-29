@@ -1,8 +1,8 @@
 # ==============================================================================
 #          Funciones Lambda
 # ==============================================================================
-# Son funciones anonimas que intentan simplificar el codigo de una funcion, cuya
-# definicion es secilla y con pocas instrucciones, esta
+# Son funciones anonimas que intentan simplificar el codigo de una funcion, cuyo
+# contenido es una UNICA expresion y no un bloque de acciones,
 # debe ser guardada en una variable para ser utlizada 
 
 # Funcion normal que dobla un numero
@@ -29,4 +29,5 @@ print(revertir("Hola como estas"))
 # Funcino lambda que suma dos numeros
 sumar = lambda a,b : a + b
 print(sumar(3,5))
+# 8
 
